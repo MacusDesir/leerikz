@@ -1,0 +1,7 @@
+<h2><%= @song.name %></h2>
+<h3>By <%= @song.artist.name %></h3>
+
+<img src ='<%= @pic %>' >
+<!-- double equals allows you to render raw html! So you can still format your text with <br> -->
+<p><%== @description %></p>
+<%== @lyrics %>
